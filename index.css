@@ -294,22 +294,12 @@ main{
         margin-bottom: 70px;
         padding: 10px;
     }
-    /* .container::after {
-        content: "";
-        position: absolute;
-        top: 250px;
-        right: -90px;
-        z-index: -3;
-        width: 200px;
-        height: 600px;
-        border-top-right-radius: 280px;
-        border-top-left-radius: 280px;
-        opacity: .3;
-        background: hsl(276, 100%, 81%);
-    } */
 }
 
 @media (max-width: 495px){
+    .mobile {
+            transform: translateX(10px) translateY(120px);
+        }
     .container::after {
             content: "";
             position: absolute;
