@@ -314,10 +314,10 @@ main{
             content: "";
             position: absolute;
             top: 250px;
-            right: -90px;
+            right: -80px;
             bottom: 0;
             z-index: -3;
-            width: 200px;
+            width: 160px;
             height: 630px;
             border-top-right-radius: 0;
             border-top-left-radius: 350px;
